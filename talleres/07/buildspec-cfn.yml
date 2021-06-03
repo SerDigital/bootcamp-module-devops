@@ -4,7 +4,6 @@ phases:
   build:
     commands:
       - echo Ejecutar comando de validate-template
-      - cd ~/environment/bootcamp-module-devops/
       - aws cloudformation validate-template --template-body file://talleres/07/api-cfn-pipeline.yaml 
 
 artifacts:
